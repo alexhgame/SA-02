@@ -1,0 +1,11 @@
+@charset "utf-8";
+h1{
+    text-align: center;
+}
+body {
+    background-color: brown;
+}
+h3 {
+    text-align: center;
+    background-color: cyan;
+}

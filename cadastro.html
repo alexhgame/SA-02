@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+</head>
+<body align="center">
+    <div id="fundoformulario4">
+        <table class="formulario4" align="center">
+            <tr>
+                <td>
+                    <fieldset class="configuracaofieldset">
+                        <legend id="contorno"><Strong>Cadastro Geral</Strong></legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    <fieldset class="configuracaofieldset">
+                                        <legend>Dados pessoais</legend>
+                                        <label for="Nome">Nome completo:</label><br>
+                                        <input type="text" id="Nome" name="Nome" size="30" maxlength="30"/>
+                                        <p>
+                                    
+                                        <label for="Profissão">Carro:</label>
+                                        <br>
+                                        <select id="Profissão" name="Profissão">
+                                            <option value="" selected="select">Bugatti</option>
+                                            <option value="" selected="select">DodgeViper</option>
+                                            <option value="" selected="select">Mustang</option>
+                                            <option value="" selected="select">McLaren</option>
+                                        </select>
+                                    </fieldset>
+                                </td>
+                                    
+                                <td>
+                                    <fieldset class="configuracaofieldset">
+                                        <legend><Strong>Localização</Strong></legend>
+                                        <label for="email">E-mail:</label><br>
+                                        <input type="text" id="email" name="email" size="30" maxlength="30"/>
+                                        <p>
+                                        <label for="Rua">Endereço:</label><br>
+                                        <input type="text" id="endereco" name="endereco" size="30" maxlength="30"/>
+                                    </fieldset>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="3">
+                                    <fieldset class="configuracaofieldset">
+                                        <legend><strong>Faixa etária</strong></legend>
+                                        <p>
+                                        <input type="radio" id="Sexo" name="Sexo" value="Masculino"/>   
+                                        <label for="Sexo">Até 20 anos</label>
+                                        <br>
+                                        <input type="radio" id="Sexo" name="Sexo" value="Feminino"/>
+                                        <label for="Sexo">Mais de 20 até 30 anos</label>
+                                        <br>
+                                        <input type="radio" id="Sexo" name="Sexo" value="Masculino"/>
+                                        <label for="Sexo">Mais de 30 até 40 anos</label>
+                                        <p>
+                                        <input type="radio" id="Sexo" name="Sexo" value="Masculino"/>
+                                        <label for="Sexo">Mais de 40 até 50 anos</label>
+                                        <br>
+                                        <input type="radio" id="Sexo" name="Sexo" value="Feminino"/>
+                                        <label for="Sexo">Mais de 50 até 60 anos</label>
+                                        <br>
+                                        <input type="radio" id="Sexo" name="Sexo" value="Masculino"/>
+                                        <label for="Sexo">Mais de 60</label>
+                                    </fieldset>
+                                </td>
+                            </tr>
+
+                            
+                        </table>
+                    </fieldset>
+                    <table align="center">
+                        <tr>
+                            <td colspan="3">
+                                <fieldset class="configuracaofieldset">
+                                    <legend><strong>Comentário</strong></legend>
+                                    <p>
+                                    <label for="Mensagem">Mensagem:</label><br>
+                                    <textarea name="Mensagem" id="Mensagem" cols="42" rows="7"></textarea>
+                                </fieldset>
+                            </td>
+                        </tr>
+                
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" id="Enviar" name="Enviar" value="Enviar"/>
+                                <input type="reset" id="Limpar" name="Limpar" value="Limpar"/>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
